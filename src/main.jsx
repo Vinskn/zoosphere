@@ -80,7 +80,11 @@ const router = createBrowserRouter([
       </NavaShield>
     )
   }
-])
+],
+{
+  basename: '/zoosphere'
+}
+);
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

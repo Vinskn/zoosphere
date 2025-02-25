@@ -6,7 +6,7 @@ const About = () => {
         <div className='w-full'>
             <Navbar addClass = 'text-white bg-slate-950/40' aAbout= 'font-bold'/>
 
-            <img src="/banner.webp" alt="" />
+            <img src="/zoosphere/banner.webp" alt="" />
             <div className='w-4/5 mx-auto mt-10 h-auto border-t-2 border-green-800 border-dashed flex'>
                 <div className='mt-4 w-2/3'>
                     <h1 className='font-highMount text-darkGreen ~text-2xl/4xl'>ZooSphere Animal Conservation</h1>
@@ -14,10 +14,10 @@ const About = () => {
                         Zoosphere is a place where education meets entertainment. Through engaging exhibits and educational programs, we inspire visitors to learn about the natural world and develop a deep appreciation for wildlife.
                     </p>
                 </div>
-                <img src="/genkan.webp" alt="" className='w-1/2 mt-4 ml-3 object-cover'/>
+                <img src="/zoosphere/genkan.webp" alt="" className='w-1/2 mt-4 ml-3 object-cover'/>
             </div>
             <div className='w-4/5 mx-auto mt-10 h-auto border-t-2 border-green-800 border-dashed flex mb-10'>
-            <img src="/history.webp" alt="" className='w-1/2 mr-3 mt-4 object-cover'/>
+            <img src="/zoosphere/history.webp" alt="" className='w-1/2 mr-3 mt-4 object-cover'/>
             <div className='mt-4 w-2/3'>
                     <h1 className='font-highMount text-darkGreen ~text-2xl/4xl'>Short History</h1>
                     <p className='text-green-900 font-bold ~text-sm/xl font-mountReal'>

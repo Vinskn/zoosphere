@@ -5,7 +5,7 @@ const Navbar = (props) => {
     const { addClass, aHome, aAbout, aAnimals, aTicket, aDonate } = props;
     return (
         <nav className={`z-10 flex justify-between fixed w-full ${addClass}`}>
-            <img src="/Logo.webp" alt="" className='~w-10/32 h-auto block'/>
+            <img src="/zoosphere/Logo.webp" alt="" className='~w-10/32 h-auto block'/>
             <ul className='flex my-auto ~text-xs/base'>
                 <li className={`~mx-1/3 ${aHome}`}> <Link to={'/'}>Home</Link> </li>
                 <li className={`~mx-1/3 ${aAbout}`}> <Link to={'/about'}>About</Link> </li>

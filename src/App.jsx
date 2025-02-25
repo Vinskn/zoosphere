@@ -39,9 +39,9 @@ function App() {
       <main>
         <section className="lg:h-screen relative">
           <Swiper autoplay= {{delay: 5000}} loop= {true} modules={[Autoplay]}>
-            <SwiperSlide> <img src="/tiger.webp" alt="tiger" className="w-full h-full object-cover" /> </SwiperSlide>
-            <SwiperSlide> <img src="/cendrawasih.webp" alt="tiger" className="w-full h-full object-cover" /> </SwiperSlide>
-            <SwiperSlide> <img src="/orangutan.webp" alt="tiger" className="w-full h-full object-cover" /> </SwiperSlide>
+            <SwiperSlide> <img src="/zoosphere/tiger.webp" alt="tiger" className="w-full h-full object-cover" /> </SwiperSlide>
+            <SwiperSlide> <img src="/zoosphere/cendrawasih.webp" alt="tiger" className="w-full h-full object-cover" /> </SwiperSlide>
+            <SwiperSlide> <img src="/zoosphere/orangutan.webp" alt="tiger" className="w-full h-full object-cover" /> </SwiperSlide>
           </Swiper>
           <div className="text-white ml-4 absolute z-10 sm:top-1/4 sm:-translate-y-1/4 lg:top-1/3 left-4">
             <h1 className="~text-sm/2xl -mb-6 font-highMount">Welcome to</h1>
@@ -94,7 +94,7 @@ function App() {
                     <p className='~text-xs/4xl font-bold'>"It's fun to see animals like in the wild!!"</p>
                     <p className='text-end font-bold ~text-xxs/sm absolute bottom-0 right-1/2 mr-2 mb-2'>Meta <br/> Visitor Of ZooSphere</p>
                   </div>
-                  <img src="/sample1.jpg" alt="" className='w-1/2 object-cover rounded-r-lg' />
+                  <img src="/zoosphere/sample1.jpg" alt="" className='w-1/2 object-cover rounded-r-lg' />
                 </div>
                 <div className='rounded-xl bg-pattern2 bg-contain w-10/12 ~h-32/60 flex justify-between relative mt-5'>
                   <div className='p-3 w-1/2 text-slate-100'>
@@ -102,12 +102,12 @@ function App() {
                     <p className='~text-xs/4xl font-bold'>"Amazing! A lot of fish like in an ocean!"</p>
                     <p className='text-end font-bold ~text-xxs/sm absolute bottom-0 right-1/2 mr-2 mb-2'>Yuki <br/> Visitor Of ZooSphere</p>
                   </div>
-                  <img src="/sample2.jpg" alt="" className='w-1/2  rounded-r-lg object-cover' />
+                  <img src="/zoosphere/sample2.jpg" alt="" className='w-1/2  rounded-r-lg object-cover' />
                 </div>
               </div>
 
               <div className='w-3/4 h bg-pattern3 bg-contain rounded-lg flex flex-col ~h-121 relative mr-5'>
-                <img src="/sample3.webp" alt="" className='rounded-t-lg w-full h-3/4 object-cover'/>
+                <img src="/zoosphere/sample3.webp" alt="" className='rounded-t-lg w-full h-3/4 object-cover'/>
                 <div className='text-green-900'>
                   <h1 className='~text-sm/xl font-bold'>Feeding Time</h1>
                   <p className='~text-xs/4xl font-bold'>The elephant is so big and eats a lot!</p>
@@ -119,19 +119,19 @@ function App() {
 
         <section className='lg:h-screen w-full bg-pattern4 relative pt-5'>
           <h1 className='~text-5xl/8xl mb-10 font-bold text-center font-highMount text-slate-900'>Explore ZooSphere</h1>
-          <img src="/sample4.webp" alt="" className='lg:w-1/2 sm:w-10/12 mx-auto ~mt-10/20 sm:pb-20 lg:pb-0'/>
+          <img src="/zoosphere/sample4.webp" alt="" className='lg:w-1/2 sm:w-10/12 mx-auto ~mt-10/20 sm:pb-20 lg:pb-0'/>
           <div className='flex'>
             <div className='bg-pattern6 bg-contain absolute lg:-bottom-3/4 sm:-bottom-24 transform lg:-translate-y-3/4 w-1/2 mx-5 lg:h-1/2 overflow-hidden rounded-lg p-3'>
               <h1 className='font-bold text-green-800 ~text-xs/xl -rotate-3 ~mb-10/20 '>Meet Zoo Member</h1>
               <p className='w-3/4 font-bold text-green-900 ~text-base/3xl'>
                 "The forest genius. With his clever mind, he always finds a way to have fun!."</p>
-              <img src="/sample6.png" alt="" className='w-1/2 absolute bottom-0 ~-right-10/6' />
+              <img src="/zoosphere/sample6.png" alt="" className='w-1/2 absolute bottom-0 ~-right-10/6' />
             </div>
 
             <div className='bg-pattern6 bg-contain absolute lg:-bottom-3/4 sm:-bottom-24 right-0 transform lg:-translate-y-3/4 w-1/3 mx-5 lg:h-1/2 overflow-hidden rounded-lg p-3'>
               <p className='w-3/4 font-bold text-green-900 ~text-2xl/4xl'>
                 Plan Your Magical Journey Here</p>
-              <img src="/sample7.png" alt="" className='lg:w-3/5 sm:w-1/2 absolute bottom-0 -right-6' />
+              <img src="/zoosphere/sample7.png" alt="" className='lg:w-3/5 sm:w-1/2 absolute bottom-0 -right-6' />
             </div>
           </div>
         </section>
@@ -188,8 +188,8 @@ function App() {
           </div>
           <h1 className='text-center mt-5 font-bold ~text-lg/2xl mb-3'>Collaboration Between</h1>
           <div className='flex justify-evenly'>
-            <img src="/Logo.webp" alt="" className='lg:w-32 sm:w-20'/>
-            <Link to={'login'} className='lg:w-32 sm:w-20 cursor-default'><img src="/NAVA.png" alt=""/></Link>
+            <img src="/zoosphere/Logo.webp" alt="" className='lg:w-32 sm:w-20'/>
+            <Link to={'login'} className='lg:w-32 sm:w-20 cursor-default'><img src="/zoosphere/NAVA.png" alt=""/></Link>
           </div>
         </section>
         

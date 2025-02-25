@@ -71,7 +71,7 @@ const Ticket = () => {
     return (
         <div>
             <Navbar addClass = 'text-white bg-slate-950/40' aTicket= 'font-bold'/>
-            <img src="/banner4.webp" alt="" className='h-1/2'/>
+            <img src="/zoosphere/banner4.webp" alt="" className='h-1/2'/>
             <div className='w-full flex justify-around ~mt-2/10 text-center'>
                 <div>
                     <h1 className='~text-4xl/7xl text-green-900 font-bold'>
@@ -92,9 +92,9 @@ const Ticket = () => {
             <h1 className='font-highMount text-darkGreen ~text-2xl/4xl text-center ~mt-2/10'>General Admission</h1>
 
             <div className='w-full lg:h-72 sm:h-32 flex justify-around px-5 ~mt-2/5'>
-                <img src="/sample8.webp" alt="" className='w-1/4 object-cover rounded-lg'/>
-                <img src="/sample10.webp" alt="" className='w-2/5 object-cover object-left rounded-lg'/>
-                <img src="/sample9.webp" alt="" className='w-1/4 object-cover rounded-lg'/>
+                <img src="/zoosphere/sample8.webp" alt="" className='w-1/4 object-cover rounded-lg'/>
+                <img src="/zoosphere/sample10.webp" alt="" className='w-2/5 object-cover object-left rounded-lg'/>
+                <img src="/zoosphere/sample9.webp" alt="" className='w-1/4 object-cover rounded-lg'/>
             </div>
             <Outlet/>
             <div className='md:flex md:justify-between ~mt-5/10 '>

@@ -22,7 +22,7 @@ const MyTicket = () => {
                                         <h1 className="~text-xxs/sm text-center">{`${i.type} ~ ${i.id}`}</h1>
                                     </div>
                                 </div>
-                                <img src="/TicketImage.webp" alt="ticket" className="w-2/3 rounded-r-xl object-cover"/>
+                                <img src="/zoosphere/TicketImage.webp" alt="ticket" className="w-2/3 rounded-r-xl object-cover"/>
                             </div>
                         ))
                     }                    

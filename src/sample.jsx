@@ -17,7 +17,7 @@ const Tes = () => {
   return (
     <div className="w-full h-full">
       <div className="group relative rounded-lg m-20 bg-black ~w-64/96">
-        <img src="/sample1.jpg" alt="" className="rounded-lg ~w-64/96"/>
+        <img src="/zoosphere/sample1.jpg" alt="" className="rounded-lg ~w-64/96"/>
         <div className="absolute inset-0 text-white bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, pariatur.</p>
         </div>

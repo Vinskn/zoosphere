@@ -28,7 +28,7 @@ const Animals = () => {
     return(
         <div>
             <Navbar addClass = 'text-white bg-slate-950/40' aAnimals= 'font-bold'/>
-            <img src="/banner2.webp" alt=""/>
+            <img src="/zoosphere/banner2.webp" alt=""/>
             <h1 className='~text-3xl/5xl font-bold font-highMount text-center mt-5 text-green-950'
                 >Meet Family Members</h1>
             <input name="" id="search" placeholder='Search: Try Komodo' ref={searchData} onChange={handleSearch}
